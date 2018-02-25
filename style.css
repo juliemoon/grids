@@ -1,0 +1,37 @@
+body{
+  font-family: 'Inconsolata', monospace;
+  background: #ffeead;
+}
+a{
+  color: #ffeead;
+}
+
+a:hover{
+  color:pink;
+}
+
+h1{
+  color: #ff6f69;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  /* werid left side is indented so you need this remove padding manually */
+  padding-left: 0;
+}
+
+li{
+  display:flex;
+  background-color: #88d8b0;
+  color: 	#ffeead;
+  font-weight: 800;
+  letter-spacing: 1px;
+  /* gets the contents centered within flex */
+  justify-content: center;
+  /* align-items: center;  */
+}
+
+li:hover {
+  background-color: #ff6f69;	
+}
