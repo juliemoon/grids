@@ -21,15 +21,29 @@ ul{
   padding-left: 0;
 }
 
+/* ul holding the li items is a grid container */
+.list{
+  display: grid;
+  /* all the child elements > li will get a gap */
+  grid-gap: 2px;
+  /* splits it into two equal columns */
+  grid-template-columns: 1fr 1fr;
+  /* gives it width to all the rows vs. grid-template-rows will only change the first row! */
+  grid-auto-rows: 80px;
+}
+
+/* li has the flex display to change the content while ul the parent manages the containers */
 li{
+  /* using flexbox so li is flex container and all of its children are flex items */
   display:flex;
   background-color: #88d8b0;
   color: 	#ffeead;
   font-weight: 800;
   letter-spacing: 1px;
-  /* gets the contents centered within flex */
+  /* gets the contents centered within flex (main axis)*/
   justify-content: center;
-  /* align-items: center;  */
+  /* has the text show up in the middle (cross axis) */
+  align-items: center; 
 }
 
 li:hover {
