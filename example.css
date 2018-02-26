@@ -16,14 +16,33 @@ wrapper > div {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Grid is set in the parent container. It will make one row of 4 divs */
+wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* 3 rows with specific sizes */
+  grid-template-rows: 40px 100px 40px;
+}
+
+
 .header, .footer{
   background-color: #88d8b0;
 }
 
+.header{
+  grid-column: span 12;
+}
+
+.footer{
+  grid-column: span 12;
+}
+
 .menu {
   background-color: #ff6f69;
+  grid-column:span 6;
 }
 
 .content{
  background-color:#ffcc5c;
+ grid-column:span 6;
 }
