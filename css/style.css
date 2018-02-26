@@ -46,6 +46,14 @@ li{
   align-items: center; 
 }
 
+li:first-child{
+  grid-column: 1/span 2;
+}
+
+li:last-child{
+  grid-column: 1/span 2;
+}
+
 li:hover {
   background-color: #ff6f69;	
 }

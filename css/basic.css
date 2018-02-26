@@ -1,0 +1,78 @@
+div{
+  font-family: 'Krona One', sans-serif;
+  font-size: 20px;
+  color: #ca895a96;
+}
+
+header{
+  background-color: #d8dea7;
+  margin-top: 0;
+}
+
+h1{
+  margin-top: 0;
+  padding-top: 60px;
+}
+
+p{
+  padding-bottom: 40px;
+}
+h1,p{
+  font-family: 'Krona One', sans-serif;
+  text-align: center;
+  color: #3b5454;
+  /* background-color: cornflowerblue; */
+}
+wrapper {
+  display:grid;
+  grid-template-columns: 500px auto 275px;
+  grid-template-rows:300px 250px 175px;
+  grid-gap: 15px;
+}
+
+div{
+  display:flex;
+  /* moves horizontal */
+  justify-content: center;
+  /* moves vertical */
+  align-items: center;
+}
+
+.one{
+  background-color:#ffdbd3;
+}
+
+.two{
+  background-color:#ffecdb;
+
+}
+
+.three{
+  background-color:#c6b5bf;
+}
+
+.four{
+  background-color:#717b8e;
+}
+
+.five{
+  background-color:#2d3431;
+}
+
+.six{
+  background-color:#c9d1de;
+}
+
+.seven{
+  background-color: #f7f6f0
+
+}
+
+.eight{
+  background-color: #a7cbd5;
+}
+
+.nine{
+  background-color: #71777d;
+
+}
