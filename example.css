@@ -1,0 +1,29 @@
+body{
+  background-color: #ffeead;
+}
+
+h1{
+  color: #ff6f69;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 30px 0 10px;
+  margin: 0px
+}
+
+wrapper > div {
+  color: #ffeead;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header, .footer{
+  background-color: #88d8b0;
+}
+
+.menu {
+  background-color: #ff6f69;
+}
+
+.content{
+ background-color:#ffcc5c;
+}
