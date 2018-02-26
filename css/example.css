@@ -49,6 +49,7 @@ wrapper {
   grid-template-columns: repeat(12, 1fr);
   /* 3 rows with specific sizes */
   grid-template-rows: 40px 100px 40px;
+  /* align-content: center; */
 }
 
 
