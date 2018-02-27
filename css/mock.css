@@ -10,13 +10,24 @@ body{
 
 article {
   display: grid;
+  grid-gap:3px;
   grid-template-columns: 80px 1fr 80px;
 }
 
 article > *{
   /* have all the elements start at grid column 2 */
   grid-column:2;
-  /* min-width:0; */
+  /* min-width is what will keep it responsive and obey the columns even when screen is smaller */
+  min-width:0;
+}
+
+article > .aside{
+  font-size: 0.8em;
+  color:mistyrose;
+  /* to have it on the left side --> grid-column:1 */
+  grid-column:3;
+  background-color: slategray;
+  padding:8px;
 }
 
 article > figure{
