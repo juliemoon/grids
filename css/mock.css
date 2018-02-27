@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 10px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px;
+}
+
+article > *{
+  /* have all the elements start at grid column 2 */
+  grid-column:2;
+  /* min-width:0; */
+}
+
+article > figure{
+  /* grid-column is shorthand for grid-column-start and end */
+  grid-column: 1 / -1;
+}
+
+img {
+  width: 100%;
+}
+
+.line-numbers a {
+  text-decoration: none;
+  color: #000;
+  /* gives space between numbers and string in codeblock */
+  padding-right: 1em;
+}
+
+code {
+  background: #eee;
+  /* padding: 2px 5px; */
+}
+
+pre {
+  background: #eee;
+  padding: 10px 15px;
+  overflow: auto;
+}
+
+/* pre > code {
+  padding: 0;
+} */
+
+figure {
+  margin: 0;
+}
+
+figure figcaption {
+  color: #666;
+  font-style: italic;
+  font-size: 0.8em;
+}
